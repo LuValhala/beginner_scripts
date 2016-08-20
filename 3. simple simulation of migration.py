@@ -1,5 +1,3 @@
-#malo by to byt cyklus v cykle - ten najnizsi bude if o tom ze ci je jednotka tak nahodne zvysi nahodnym smerom maticu o +1
-
 import random
 import matplotlib.pyplot as plt
 x=0
