@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+These two funtions are transfering the input numbers from binary and hexadecimery system.
+Ľuboš Valčo, march 2014
+"""
+
 def dvojkova(binary):
     print('Dvojková sústava')
     vysledok = 0
