@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-ZADANIE: simulujte šírenie požiaru akýmkoľvek spôsobom na aspoň 5 cyklov, výstup má byť video, gifko alebo súbor obrázkov
-simulacia sirenia poziaru z ohniska pomocou kniznice numpy simulovanej na nulovej matici s jedným ohniskom
-prvy cyklus simuluje casove periodz, dalsie dva idu po riadkoch a stlpcoch, ak najde cislo v matici vyssie ako 1(poziar)
-tak vygeneruje nahodne cislo - podla neho sa ohen rozsiri do novej strany do novej matice
-nemoze ale horiet donekonecna tak vsetky hodnoty vyssie ako 5 ostanu piatimi, 
-Ľuboš Valčo original realeased december 2015. august 2016: repaired the code to be more readable and non-repeatable.
+ZADANIE: simulate the fire spread, at least 5 cycles and the output must be a video, gif file or a dozen of images 
+showing the spread. Epicentre of the fire as a number 1 is placed inside of a numpy array of zeroes. With each cycle the
+fire spreads in random direction. Cycles in orded: first stimulate time of the fire, second and third are to calculate 
+the y and x axis. Trigger for further release of the fire is existing fire (value higher than zero)
+Since there is no more material to be burned, any number higher than 5 will be cut back to 5 with a simple IF statement
+Ľuboš Valčo, Originaly realeased december 2015. August 2016: repaired the code to be more readable and less repeatable.
 """
 
 import numpy as np
