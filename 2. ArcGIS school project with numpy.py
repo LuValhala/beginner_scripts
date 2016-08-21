@@ -1,5 +1,5 @@
 """
-This script is wotking with ArcGIS arcpy library. It was also needed for a school subject (programming 1).
+This script is working with ArcGIS arcpy library. It was also needed for a school subject (programming 1).
 It takes the input points feature and creates a raster with it. After that, with numpy library, the raster dataset is 
 converted to an array. A simple operation is used and then the process continues with array transfered to raster.
 This whole script is a core part of arcgis tool, which is a GUI used to work in this desktop software
