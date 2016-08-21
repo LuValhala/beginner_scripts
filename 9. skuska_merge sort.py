@@ -8,7 +8,7 @@ Keeps on splitting the list until there is only one object of the list at the ti
 based on whichever is smaller. Continues with larger and larger lists allways comparing only two values which smaller 
 is allways added to new list. This process is much faster than comparing each numbers with eachother.
 Lists can contain duplicates, negatives and decimals.
-Ľuboš Valčo, may 2016
+Ľuboš Valčo, june 2016
 """
 #na zaklade vstupnych indexov rekurzivne zoradit zoznam:
 #najprv rozdelit napoly az dokym nezostanu jednotlive objekty zoznamu
