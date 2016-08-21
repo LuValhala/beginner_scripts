@@ -3,7 +3,7 @@ This script is working with ArcGIS arcpy library. It was also needed for a schoo
 It takes the input points feature and creates a raster with it. After that, with numpy library, the raster dataset is 
 converted to an array. A simple operation is used and then the process continues with array transfered to raster.
 This whole script is a core part of arcgis tool, which is a GUI used to work in this desktop software
-Ľuboš Valčo, november 2014
+Ľuboš Valčo, november 2015
 """
 
 import arcpy
