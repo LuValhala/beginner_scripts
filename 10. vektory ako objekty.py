@@ -3,6 +3,7 @@
 Creating the class cVec3, being able to simulate the vectors from math up to three dimensions, two is predefined.
 Also added few operations between two clases such as multiplication, adding, substracting and so on...
 Any vector can be created calling the class, for example 2 dimensional vector would be cVec3(5,6) or cVec3(-3,10)
+Ľuboš Valčo, july 2016
 """
 import math
 
