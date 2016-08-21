@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Just a simple recursive function to calculate the factorial of the input number
-Ľuboš Valčo, april 2015
+Ľuboš Valčo, april 2016
 """
 
 def faktorial(i):
