@@ -1,5 +1,11 @@
-#basic text game in slovak language
-
+"""
+Basic text game created as my first ever "file.py". 
+Pressing the right keys in console input will lead you to the end of the game.
+This text game was created for school subject and is completely in slovak language.
+Variables in this file are quite random, but were used to hold the cycle before the "key to open the door" was found. 
+After that is achieved, you can continue through the game.
+Ľuboš Valčo, october 2014
+"""
 print "Zobudil som sa s prazdnou flasou tatranskeho caju 72% v ruke a som v nejakej novej budove. Chcem sa odtial dostat a zistit co sa stalo"
 q = 0
 while q == 0:
