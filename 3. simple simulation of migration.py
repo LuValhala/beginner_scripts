@@ -2,7 +2,7 @@
 This script is simulating the migration of birds. It was also needed for a school subject (programming 1).
 It uses the matplotlib library to catch every move of the randomly moving bird and print it on a plot.
 Script then proceeds to save those plots as images.
-Ľuboš Valčo, november 2014
+Ľuboš Valčo, november 2015
 """
 
 import random
