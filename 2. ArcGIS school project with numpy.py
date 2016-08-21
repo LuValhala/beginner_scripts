@@ -1,3 +1,11 @@
+"""
+This script is wotking with ArcGIS arcpy library. It was also needed for a school subject (programming 1).
+It takes the input points feature and creates a raster with it. After that, with numpy library, the raster dataset is 
+converted to an array. A simple operation is used and then the process continues with array transfered to raster.
+This whole script is a core part of arcgis tool, which is a GUI used to work in this desktop software
+Ľuboš Valčo, november 2014
+"""
+
 import arcpy
 import numpy
 from arcpy import env 
@@ -48,11 +56,3 @@ arcpy.RasterToPolygon_conversion(reclas2, polygon2)
 inFeatures = [polygon1, polygon2]
 intersectOutput = prienik
 arcpy.Intersect_analysis(inFeatures, intersectOutput)
-  
-#pouzitie numpy na odcitanie najnizsej vysky od celej tabulky
-
-
-#tool zo vstupnych bodov najde polygony sklonu do 25stupnov a orientacie na juzny polobzor
-
-#aj ked to mozno velmi nedava zmysel, lebo vyjde to iste pri numpy alebo aj nie 
-#ale matematicka zmena rastra sa da upravit pripadne, islo len o pokus
