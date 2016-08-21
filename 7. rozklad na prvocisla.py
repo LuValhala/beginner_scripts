@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
-#nie su osetrene unicode znaky
-#vypis mocniny
+"""
+Simple code for divison of the number to his prime-number. 
+This time I decided to put out 5 outputs to assure that the script is working fine 
+Ľuboš Valčo, april 2016
+"""
 import random
 
 def expo(m, ex, topr = False):
