@@ -4,7 +4,8 @@ ZADANIE: simulujte šírenie požiaru akýmkoľvek spôsobom na aspoň 5 cyklov,
 simulacia sirenia poziaru z ohniska pomocou kniznice numpy simulovanej na nulovej matici s jedným ohniskom
 prvy cyklus simuluje casove periodz, dalsie dva idu po riadkoch a stlpcoch, ak najde cislo v matici vyssie ako 1(poziar)
 tak vygeneruje nahodne cislo - podla neho sa ohen rozsiri do novej strany do novej matice
-nemoze ale horiet donekonecna tak vsetky hodnoty vyssie ako 5 ostanu piatimi, Ľuboš Valčo
+nemoze ale horiet donekonecna tak vsetky hodnoty vyssie ako 5 ostanu piatimi, 
+Ľuboš Valčo original realeased december 2015. august 2016: repaired the code to be more readable and non-repeatable.
 """
 
 import numpy as np
