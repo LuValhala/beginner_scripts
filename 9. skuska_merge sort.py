@@ -1,4 +1,15 @@
 # -*- coding: utf-8 -*-
+"""
+This was the final challange in our school programming course(subject) or rather final exam.
+Our only input was empty screen, no internet connection and a diagram with the inputs and outputs 
+of a recursive function to sort a list of numbers originaly called as "Merge-sort"
+So this whole recursion works with upper(horny) and lower(dolny) index of the inputted list(data).
+Keeps on splitting the list until there is only one object of the list at the time and starts merging them
+based on whichever is smaller. Continues with larger and larger lists allways comparing only two values which smaller 
+is allways added to new list. This process is much faster than comparing each numbers with eachother.
+Lists can contain duplicates, negatives and decimals.
+Ľuboš Valčo, may 2016
+"""
 #na zaklade vstupnych indexov rekurzivne zoradit zoznam:
 #najprv rozdelit napoly az dokym nezostanu jednotlive objekty zoznamu
 #spajat postupne ale vzdy iba po dva co je rychlejsie a setri pamat
