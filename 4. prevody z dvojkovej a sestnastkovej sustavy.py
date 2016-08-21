@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 These two funtions are transfering the input numbers from binary and hexadecimery system.
-Ľuboš Valčo, march 2015
+Ľuboš Valčo, march 2016
 """
 
 def dvojkova(binary):
