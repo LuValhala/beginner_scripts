@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Sipmle regional expression search and match excercise. Matching the IP and searching for mail.
-Ľuboš Valčo, april 2015
+Ľuboš Valčo, april 2016
 """
 import re
 #optionaly: ip=input("Zadajte IP adresu:")
